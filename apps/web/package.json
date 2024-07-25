@@ -9,7 +9,7 @@
 		"lint": "eslint . --max-warnings 0",
 		"tsc": "tsc --noEmit --incremental",
 		"cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts",
-		"pages:build": "@cloudflare/next-on-pages",
+		"pages:build": "pnpm dlx @cloudflare/next-on-pages",
 		"preview": "pnpm run pages:build && wrangler pages dev",
 		"deploy": "pnpm run pages:build && wrangler pages deploy --branch main",
 		"schema-update": "drizzle-kit generate sqlite",
