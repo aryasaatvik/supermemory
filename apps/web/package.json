@@ -50,10 +50,5 @@
 		"postcss": "^8.4.38",
 		"typescript": "^5.3.3",
 		"wrangler": "^3.66.0"
-	},
-	"trustedDependencies": [
-		"esbuild",
-		"workerd",
-		"xycolors"
-	]
+	}
 }
